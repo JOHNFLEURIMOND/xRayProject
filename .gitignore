@@ -1,0 +1,36 @@
+# Logs
+logs
+*.log
+
+#dist folder
+dist/
+
+#storybook output folder
+.public
+
+#storybook ts build output
+
+#Webstorm metadata
+.idea/
+*.iml
+
+#VSCode metadata
+.vscode/
+
+# Dependency directory
+/node_modules
+
+# macOS X files
+.DS_Store
+
+# Local Netlify folder
+.netlify
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
