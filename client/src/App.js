@@ -1,5 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import MainHero from './components/MainHero/MainHero';
+import AdminPageHero from './components/MainHero/AdminPageHero';
+import AboutPageHero from './components/MainHero/AboutPageHero';
 import Main from './components/Main/Main';
 import Navbar from './components/Navbar/Navbar';
 import AboutPage from './components/AboutPage/AboutPage';
@@ -28,7 +30,7 @@ function App() {
           element={
             <div>
               <Navbar />
-              <MainHero />
+              <AdminPageHero />
               <AdminPage />
             </div>
           }
@@ -38,7 +40,7 @@ function App() {
           element={
             <div>
               <Navbar />
-              <MainHero />
+              <AboutPageHero />
               <AboutPage />
             </div>
           }
